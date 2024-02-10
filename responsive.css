@@ -1,0 +1,140 @@
+@media (max-width:950px){
+    .HeaderObjGroup{
+        width:10cm;
+    }
+    .EducationBox1,.EducationBox2,.EducationBox3{
+        font-size: medium;
+    }
+    .EducationBoxGroup{
+        gap: 15px;
+    }
+}    
+@media (max-width:800px){
+    #About p{
+        font-size: medium;
+    }
+    .SkillsContainer{
+        gap: 4%;
+    }
+}
+@media (max-width:750px){
+    #Education{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .EducationBoxGroup{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0px;
+    }
+    .EducationBox1,.EducationBox2,.EducationBox3{
+        height: 160px;
+        padding-top: 5px;
+    }
+}
+@media (max-width:700px){
+    .moon{
+        display: none;
+    }
+    .Button1Group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:600px){
+    .HeaderObjGroup{
+        display: none;
+    }
+    .SkillsContainer{
+        gap: 2%;
+    }
+    .Return{
+        display: block;
+        background-color: rgb(17, 18, 97);
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        border: 2px solid black;
+        position: fixed;
+        bottom: 25px;
+        right: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 5;
+        box-shadow: 2px 2px 2px black;
+        animation: ToTheTop 5s infinite;
+    }
+    @keyframes ToTheTop {
+        50%{
+            transform: translateY(-7px);
+        }
+        100%{
+            transform: translateY(0px);
+        }
+    }
+}
+@media (max-width:550px){
+    #About p{
+        font-size: small;
+    }
+    .skillIcon{
+        height: 40px;
+        width: 40px;
+    }
+    .skills{
+        height: 100px;
+    }
+    .SkillsContainer{
+        bottom: 55%;
+        gap:5%;
+    }
+    .SkillsTitle{
+        height: 80px;
+        width: 200px;
+        font-size: x-large;
+        left: -80px;
+        top: -20px;
+    }
+    
+}
+@media (max-width:500px){
+    .SkillsContainer{
+        gap:2%;
+    }
+}
+@media (max-width:400px){
+    .skillIcon{
+        height: 30px;
+        width: 30px;
+    }
+    .EducationBox1,.EducationBox2,.EducationBox3{
+        width: 275px;
+        font-size: small;
+    }
+}
+@media (max-width:350px){
+    #About p{
+        font-size: x-small;
+    }
+    .myPhoto {
+        display: none;
+    }
+    .ContactMainBox{
+        width: 200px;
+    }
+    .ContactBox1,.ContactBox2{
+        width: 150px;
+        font-size: x-small;
+    }
+    .SkillsContainer{
+        justify-content: end;
+    }
+    .EducationBox1,.EducationBox2,.EducationBox3{
+        width: 250px;
+        font-size: smaller;
+    }
+}
