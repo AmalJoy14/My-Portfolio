@@ -102,6 +102,9 @@
     
 }
 @media (max-width:500px){
+    #About p{
+        font-size: 12px;
+    }
     .SkillsContainer{
         gap:2%;
     }
