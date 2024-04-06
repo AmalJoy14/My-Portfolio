@@ -552,8 +552,42 @@ header {
     width: 60px;
     filter: drop-shadow(2px 2px 2px black);
 }
-
 /*************************************************************************SECTION 3************************************************************************************/
+#Projects{
+    overflow: hidden;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ProjectsTitle{
+    margin-top: 3%;
+    margin-bottom: 50px;
+    padding-top: 25px;
+    font-size: xx-large;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
+.projectContainer{
+    background-color: #d6249f;
+    height: 700px;
+    width: 900px;
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-template-columns:50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px ;
+    grid-gap: 15px;
+}
+.project{
+    height: 300px;
+    width: 200px;
+    background-color: green;
+}
+.project img{
+    height: 170px;
+    width: 170px;
+}
+/*************************************************************************SECTION 4************************************************************************************/
 #About {
     height: 700px;
     display: flex;
@@ -579,7 +613,7 @@ header {
     font-family: "Merienda", cursive;
 }
 
-/*************************************************************************SECTION 4************************************************************************************/
+/*************************************************************************SECTION 5************************************************************************************/
 #Contact {
     position: relative;
     height: 700px;
