@@ -1,0 +1,41 @@
+/*************************************************************************SUB SECTION**********************************************************************************/
+.skills {
+    height: 150px;
+    background-color: rgb(151, 141, 141);
+    border: 1px solid white;
+    overflow: hidden;
+    box-shadow: 0px -2px 3px black, 0px 2px 3px black;
+}
+
+.SkillsTitle {
+    background-color: #285AEB;
+    display: inline-block;
+    height: 80px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-bottom: 5px;
+    rotate: -45deg;
+    font-size: xx-large;
+    font-family: cursive;
+    position: relative;
+    left: -70px;
+    top: -10px;
+    z-index: 1;
+    box-shadow: 0px 2px 2px black;
+}
+
+.SkillsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+    position: relative;
+    bottom: 25%;
+}
+
+.skillIcon {
+    height: 60px;
+    width: 60px;
+    filter: drop-shadow(2px 2px 2px black);
+}

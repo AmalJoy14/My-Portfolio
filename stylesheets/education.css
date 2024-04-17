@@ -1,0 +1,78 @@
+/**********************************************************************************SECTION 2****************************************************************************/
+#Education {
+    height: 800px;
+    background: linear-gradient(white, rgb(130, 186, 219), rgb(21, 76, 108));
+    overflow: hidden;
+}
+
+.EducationTitle {
+    padding-top: 25px;
+    font-size: xx-large;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-decoration: underline;
+    filter: drop-shadow(2px 2px 2px rgb(139, 137, 137));
+}
+
+.EducationBoxGroup {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.EducationBox1,
+.EducationBox2,
+.EducationBox3 {
+    vertical-align: 2cm;
+    width: 350px;
+    height: 500px;
+    font-size: 5mm;
+    border: 2mm ridge rgb(22, 12, 75);
+    border-radius: 30px;
+    padding: 15px;
+    padding-top: 35px;
+    box-shadow: 2px 2px 4px black;
+}
+
+.EducationBox1:hover,
+.EducationBox2:hover,
+.EducationBox3:hover {
+    transition-duration: 2s;
+    transform: scale(1.02, 1.02);
+}
+
+.EducationBox1 {
+    background-image: url("../Images/Sjcet.png");
+    background-size: cover;
+}
+
+.EducationBox2 {
+    background-image: url("../Images/Skps1.png");
+    background-size: cover;
+}
+
+.EducationBox3 {
+    background-image: url("../Images/Skps2.png");
+    background-size: cover;
+}
+
+.EducationDuration {
+    color: darkgoldenrod;
+    font-family: Tahoma, Geneva, Verdana, sans-serif
+}
+
+.EducationLogo {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.SchoolName {
+    font-family: serif;
+    font-style: italic;
+}
+
+.School {
+    display: flex;
+}

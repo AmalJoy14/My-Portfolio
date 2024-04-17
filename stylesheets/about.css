@@ -1,0 +1,25 @@
+/*************************************************************************SECTION 4************************************************************************************/
+#About {
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.AboutTitle {
+    margin-top: 3%;
+    padding-top: 25px;
+    font-size: xx-large;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+#About p {
+    font-size: larger;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 4%;
+    filter: drop-shadow(2px 2px 2px black);
+    text-align: center;
+    font-family: "Merienda", cursive;
+}
