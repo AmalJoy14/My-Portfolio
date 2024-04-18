@@ -21,7 +21,7 @@
     width:1200px;
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 25px;
 }
 
 .project {
@@ -42,9 +42,21 @@
     top: 7px;
     left: 5px;
     right: 5px;
-    background-image: url(../Images/Projects/currency_converter.png);
     background-size: cover;
     border-radius: 5px;
+}
+
+.project1 .prjImage{
+    background-image: url(../Images/Projects/ToDoList.png);
+}
+.project2 .prjImage{
+    background-image: url(../Images/Projects/currency_converter.png);
+}
+.project3 .prjImage{
+    background-image: url(../Images/Projects/DrumKit.png);
+}
+.project4 .prjImage{
+    background-image: url(../Images/Projects/RPS.png);
 }
 
 .project h2 {
@@ -74,7 +86,7 @@
 .pSkill {
     height: 12px;
     background-color: rgb(67, 34, 215);
-    padding: 5px;
+    padding: 4px;
     border: 2px solid black;
     border-radius: 25px;
     line-height: 12px;
