@@ -44,17 +44,17 @@
 }
 
 .EducationBox1 {
-    background-image: url("../Images/Sjcet.png");
+    background-image: url("../Images/Education/Sjcet.png");
     background-size: cover;
 }
 
 .EducationBox2 {
-    background-image: url("../Images/Skps1.png");
+    background-image: url("../Images/Education/Skps1.png");
     background-size: cover;
 }
 
 .EducationBox3 {
-    background-image: url("../Images/Skps2.png");
+    background-image: url("../Images/Education/Skps2.png");
     background-size: cover;
 }
 
