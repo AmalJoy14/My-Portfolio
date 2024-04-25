@@ -1,5 +1,5 @@
 const cvBtn=document.querySelector(".cvButton");
 
 cvBtn.addEventListener("click",()=>{
-    window.open("/Resume.pdf","_blank");
+    window.open("./Resume.pdf","_blank");
 });
