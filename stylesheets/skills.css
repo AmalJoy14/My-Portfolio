@@ -27,15 +27,24 @@
 }
 
 .SkillsContainer {
+    width: 80vw;
+    height: 130px;
     display: flex;
     justify-content: center;
     gap: 7%;
     position: relative;
     bottom: 25%;
+    left: 10vw;
+    flex-wrap: wrap;
+    row-gap: 10px;
 }
 
 .skillIcon {
     height: 60px;
     width: 60px;
     filter: drop-shadow(2px 2px 2px black);
+}
+.specialskillIcon{
+    width: 120px;
+    object-fit: cover;
 }

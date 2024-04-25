@@ -1,3 +1,8 @@
+@media (max-width:1700px) {
+    .skills{
+        height: 200px;
+    }
+}
 @media (max-width:950px) {
     .HeaderObjGroup {
         width: 10cm;
@@ -65,7 +70,7 @@
     }
 
     .SkillsContainer {
-        gap: 2%;
+        gap: 4%;
     }
 
     .Return {
@@ -108,11 +113,12 @@
     }
 
     .skills {
-        height: 100px;
+        height: 150px;
     }
 
     .SkillsContainer {
-        bottom: 55%;
+        height: 90px;
+        bottom: 35%;
         gap: 5%;
     }
 
@@ -132,7 +138,7 @@
     }
 
     .SkillsContainer {
-        gap: 2%;
+        gap: 4%;
     }
 }
 
@@ -171,6 +177,7 @@
 
     .SkillsContainer {
         justify-content: end;
+        left: 15vw;
     }
 
     .EducationBox1,
