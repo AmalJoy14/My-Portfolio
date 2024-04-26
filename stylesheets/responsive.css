@@ -118,7 +118,6 @@
 
     .SkillsContainer {
         height: 90px;
-        bottom: 35%;
         gap: 5%;
     }
 
@@ -139,6 +138,7 @@
 
     .SkillsContainer {
         gap: 4%;
+        left: 5%;
     }
 }
 
@@ -177,7 +177,6 @@
 
     .SkillsContainer {
         justify-content: end;
-        left: 15vw;
     }
 
     .EducationBox1,
