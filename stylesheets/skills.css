@@ -39,11 +39,15 @@
     flex-wrap: wrap;
     row-gap: 10px;
 }
+.SkillsContainer div{
+    overflow: hidden;
+}
 
 .skillIcon {
     height: 60px;
     width: 60px;
     filter: drop-shadow(2px 2px 2px black);
+    visibility: hidden;
 }
 .specialskillIcon{
     width: 120px;

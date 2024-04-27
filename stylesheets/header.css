@@ -20,7 +20,7 @@ h1 {
 }
 
 /************************************************************************************HEADER*****************************************************************************/
-#myPortfolio {
+.myPortfolio {
     display: inline-block;
     margin-left: 20px;
     font-size: 150%;
@@ -44,6 +44,7 @@ header {
     position: relative;
     font-size: 18px;
     text-decoration: none;
+    visibility: hidden;
 }
 
 .HeaderObj:before {
