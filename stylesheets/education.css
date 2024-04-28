@@ -46,16 +46,19 @@
 .EducationBox1 {
     background-image: url("../Images/Education/Sjcet.png");
     background-size: cover;
+    overflow: hidden;
 }
 
 .EducationBox2 {
     background-image: url("../Images/Education/Skps1.png");
     background-size: cover;
+    overflow: hidden;
 }
 
 .EducationBox3 {
     background-image: url("../Images/Education/Skps2.png");
     background-size: cover;
+    overflow: hidden;
 }
 
 .EducationDuration {
