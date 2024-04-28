@@ -8,6 +8,19 @@
     visibility: visible;
     animation: drop linear 1s both;
 }
+.newDropAliveEffect{
+    visibility: visible;
+    animation: drop linear 1s both,2s alive 1s linear infinite;
+}
+.newStampEffect{
+    visibility: visible;
+    animation: stamp linear 0.5s both;
+}
+
+.newFade-inEffect{
+    visibility: visible;
+    animation: fade-in linear 0.5s both;
+}
 
 @keyframes fade-in {
     from {
@@ -27,5 +40,34 @@
     }
     to {
         transform: translateY(0px);
+    }
+}
+
+@keyframes alive {
+    0%{
+        transform: translateY(0px);
+    }
+    25%{
+        transform: translateY(2px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+    75%{
+        transform: translateY(-2px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+@keyframes stamp {
+    from{
+        transform: scale(1.5);
+        opacity: 0.3;
+    }
+    to{
+        transform: scale(1);
+        opacity: 1;
     }
 }

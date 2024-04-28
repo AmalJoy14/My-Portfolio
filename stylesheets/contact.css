@@ -56,7 +56,13 @@
 .ContactDetails {
     user-select: text;
 }
-
+.ContactIcon{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .ContactIconGroup {
     margin-top: 5px;
     width: 220px;
@@ -88,4 +94,10 @@
 
 .fa-linkedin {
     color: #285AEB;
+}
+.ContactBox1,.ContactBox2,.ContactIcon{
+    overflow: hidden;
+}
+.contactItem{
+    visibility: hidden;
 }

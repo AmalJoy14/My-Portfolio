@@ -358,3 +358,7 @@
         transform: translateY(1250px);
     }
 }
+
+.homeItem, .Button1, .LinkedinIcon, .GithubIcon{
+    visibility: hidden;
+}
